@@ -15,6 +15,7 @@
             
             if ( !preg_match($phoneRegex, $phone) ) {
                  $message = 'phone invalid';
+                 $phone = '';
             } else {
                 $message = 'phone is valid';
             }
